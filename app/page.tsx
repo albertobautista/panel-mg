@@ -1,10 +1,10 @@
-import { ContactForm } from "./components/general/home/ContactForm";
-import { FeatureHeroSection } from "./components/general/home/FeatureHeroSection";
-import { HeroSlider } from "./components/general/home/HeroSlider";
-import { ImageGrid } from "./components/general/home/ImageGrid";
-import { InfoSection } from "./components/general/home/InfoSection";
-import { ReviewsSection } from "./components/general/home/ReviewsSection";
-import { StatsSection } from "./components/general/home/StatsSection";
+import { ContactForm } from "./components/home/ContactForm";
+import { FeatureHeroSection } from "./components/home/FeatureHeroSection";
+import { HeroSlider } from "./components/home/HeroSlider";
+import { ImageGrid } from "./components/home/ImageGrid";
+import { InfoSection } from "./components/home/InfoSection";
+import { ReviewsSection } from "./components/home/ReviewsSection";
+import { StatsSection } from "./components/home/StatsSection";
 
 export default function Home() {
   return (
