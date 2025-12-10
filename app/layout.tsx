@@ -1,16 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import "@fontsource-variable/montserrat";
+import "@fontsource/lato";
+import "@fontsource-variable/inter";
+import { Header } from "./components/general/Header";
+import { Toaster } from "sonner";
+import { Footer } from "./components/general/Footer";
+import { WhatsAppFloating } from "./components/general/WhatsAppFloating";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -24,10 +20,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="bg-neutral-950 text-white">
+        <Toaster richColors position="top-right" />
+
+        <Header />
         {children}
+
+        {/* FOOTER EN TODAS LAS PÁGINAS */}
+        <Footer />
+
+        {/* BOTÓN FLOTANTE DE WHATSAPP */}
+        <WhatsAppFloating />
       </body>
     </html>
   );
