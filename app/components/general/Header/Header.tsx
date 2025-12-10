@@ -8,7 +8,6 @@ const navItems = [
   { label: "Nosotros", href: "/nosotros" },
   { label: "Productos", href: "/productos" },
   { label: "Sistema Constructivo", href: "/sistema" },
-  { label: "Contacto", href: "/contacto" },
 ];
 
 export default function Header() {
