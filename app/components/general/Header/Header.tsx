@@ -15,7 +15,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full bg-black text-white border-b border-neutral-800">
+    <header className="w-full bg-dark-gray text-white border-b border-neutral-800">
       <div className="mx-auto max-w-7xl px-6 flex items-center justify-between h-30">
         {/* LOGO */}
         <div className="flex items-center gap-2">

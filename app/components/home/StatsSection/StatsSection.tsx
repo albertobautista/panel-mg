@@ -105,7 +105,7 @@ function StatItem({ value, label, description, icon, animate }: StatItemProps) {
       <div className="text-red text-5xl mb-4">{icon}</div>
 
       {/* Número animado */}
-      <div className="text-5xl font-semibold font-inter text-[#0d1b2a]">
+      <div className="text-5xl text-red font-semibold font-inter">
         +<span ref={ref}>0</span> {label}
       </div>
 

@@ -3,7 +3,7 @@ export default function InfoSection() {
     <section className="w-full bg-creama text-[#0d1b2a] py-20 px-6 md:px-20">
       <div className="max-w-6xl mx-auto">
         {/* TÍTULO PRINCIPAL */}
-        <h2 className="text-4xl md:text-6xl font-bold font-inter leading-tight mb-6">
+        <h2 className="text-4xl text-blue md:text-6xl font-bold font-inter leading-tight mb-6">
           Panel MG es líder en la fabricación de paneles estructurales en
           México.
         </h2>
@@ -18,7 +18,7 @@ export default function InfoSection() {
 
         {/* SUBSECCIÓN: ¿QUÉ ES? */}
         <div className="mb-10">
-          <h3 className="text-2xl md:text-3xl font-semibold mb-3 font-inter">
+          <h3 className="text-2xl text-blue md:text-3xl font-semibold mb-3 font-inter">
             ¿Qué es?
           </h3>
           <p className="text-lg text-[#1b263b] leading-relaxed font-montserrat">
@@ -32,7 +32,7 @@ export default function InfoSection() {
 
         {/* SUBSECCIÓN: ¿CÓMO FUNCIONA? */}
         <div>
-          <h3 className="text-2xl md:text-3xl font-semibold mb-3 font-inter">
+          <h3 className="text-2xl text-blue md:text-3xl font-semibold mb-3 font-inter">
             ¿Cómo funciona?
           </h3>
           <p className="text-lg text-[#1b263b] leading-relaxed font-montserrat">
