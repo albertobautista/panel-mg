@@ -2,6 +2,7 @@
 
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function FeatureHeroSection() {
   return (
@@ -36,10 +37,13 @@ export default function FeatureHeroSection() {
 
           {/* Botón */}
           <div className="hidden md:block">
-            <button className="bg-red text-white px-8 py-4 rounded-md text-lg font-medium inline-flex items-center gap-2 transition-colors">
+            <Link
+              href="/contacto"
+              className="bg-red text-white px-8 py-4 rounded-md text-lg font-medium inline-flex items-center gap-2 transition-colors"
+            >
               Solicite más información
               <ArrowRight size={20} />
-            </button>
+            </Link>
           </div>
         </div>
       </div>

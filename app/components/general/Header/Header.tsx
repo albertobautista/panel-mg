@@ -3,11 +3,12 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
 
 const navItems = [
   { label: "Nosotros", href: "/nosotros" },
   { label: "Productos", href: "/productos" },
-  { label: "Sistema Constructivo", href: "/sistema" },
+  { label: "Sistema Constructivo", href: "/construccion" },
 ];
 
 export default function Header() {
@@ -18,9 +19,11 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-6 flex items-center justify-between h-30">
         {/* LOGO */}
         <div className="flex items-center gap-2">
-          <span className="text-4xl font-bold tracking-wide ">
-            PANEL <span className="text-red">MG</span>
-          </span>
+          <Link href="/">
+            <span className="text-4xl font-bold tracking-wide ">
+              PANEL <span className="text-red">MG</span>
+            </span>
+          </Link>
         </div>
 
         {/* MENU DESKTOP */}
