@@ -9,24 +9,27 @@ export default function TechnicalPresentation() {
 
         {/* TEXTO */}
         <p className="text-lg md:text-xl text-[#e5e7eb] font-montserrat leading-relaxed max-w-5xl">
-          El Panel MG es un panel constructivo modular que consiste en una
-          estructura tridimensional de alambre de acero pulido bajo carbono
-          (1008), cumpliendo con normas ASTM A-82, A-85, A-370 y A-510 en
-          calibres 14 y 13. Su diseño incluye armaduras de alambres
-          electrosoldados en forma de zigzag.
+          El panel MG es una estructura tridimensional de alambre de acero
+          pulido al bajo carbono (1008) que se compone de una serie de armaduras
+          formadas por dos alambres paralelos electrosoldados a un tercero en
+          forma de zigzag. A su vez, estas armaduras están separadas entre sí
+          por tiras de poliestireno expandido que brindan aislamiento térmico y
+          acústico. Mediante un proceso industrial, se electrosoldan por ambas
+          caras del panel los alambres que van a lo ancho del mismo con las
+          armaduras, dando el terminado del panel MG.
           <br />
           <br />
-          Con espesores de <strong>2&quot;, 3&quot; o 4&quot;</strong>, y un
-          ancho fijo de <strong>1.22 m</strong>, el panel tiene longitudes que
-          van de
-          <strong> 2.44 m a 4.04 m</strong>.
+          Con espesores de 2&quot;, 3&quot; o 4&quot;, y un ancho fijo de 1.22
+          m, el panel tiene longitudes que van de 2.44 m hasta los 5.04 m.
           <br />
           <br />
-          El Sistema MG integra el Panel MG, varilla de acero, y mortero
-          cemento-arena o concreto, creando muros y losas armados para la
-          construcción eficiente de viviendas de hasta dos niveles. Esta unión
-          asegura un comportamiento estructural uniforme, eliminando debilidades
-          en la edificación.
+          El sistema constructivo integra al panel MG con varillas de refuerzo y
+          mortero cemento-arena o concreto, obteniendo construcciones
+          monolíticas al unir en una sola estructura muros y losas. Como
+          resultado, tenemos construcciones eficientes, con un comportamiento
+          estructural uniforme, aisladas y con terminados iguales a una
+          construcción tradicional al poder dar el terminado deseado en el
+          mortero.
         </p>
       </div>
     </section>

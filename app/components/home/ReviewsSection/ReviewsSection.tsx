@@ -6,13 +6,19 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const reviews = [
   {
-    text: `“Los cuerpos moldeadores han cumplido con nuestras expectativas, mostrando una excelente durabilidad y desgaste uniforme. Esto ha permitido optimizar nuestro proceso de molienda y reducir la frecuencia de los recambios, lo que impacta positivamente en la producción y los costos operativos.”`,
+    text: `“Me sorprendió mucho la rapidez con que se construye con los paneles MG, me gustó que ya terminados quedan muy sólido, mi proyecto fue una caseta de seguridad, y me gusta que aísla el sonido y se siente el cambio de temperatura de afuera y dentro de la caseta, me urgía que la caseta se construyera rápido y con el panel MG fue posible.“ -Sr. Juan Salazar`,
   },
   {
-    text: `“El sistema de Panel MG nos permitió acelerar significativamente el proceso constructivo sin necesidad de maquinaria pesada. La resistencia y aislamiento fueron superiores a lo esperado.”`,
+    text: `“Llevamos 30 años utilizando el panel MG en la construcción de hoteles y edificios de 24 pisos. Han resistido vientos y tormentas de arena. Nuestros clientes, al principio, dudaban; pensaban que no iban a resistir, pero cuando lo vieron terminado, les gustó mucho y les dio confianza.” -Ing. Miguel Llerena`,
   },
   {
-    text: `“Las viviendas realizadas con Panel MG demostraron un comportamiento térmico excepcional y una reducción notable en tiempos y costos de obra.”`,
+    text: `“Hemos trabajado con otros paneles, pero siempre nos salían detalles o teníamos que meter muchos refuerzos que nos hacían perder tiempo;con panel mg solo tengo que colocarlo y listo, se siente más fuerte, mejor trabajable y el resultado final nos hace que podamos recomendarlo.” -Ing. Pedro Tronco`,
+  },
+  {
+    text: `“Conozco el sistema constructivo gracias a Panel MG. Lo iba a hacer con otra marca, pero al conocer Panel MG me gustó mucho más por la limpieza y la calidad del armado. Estoy construyendo 102 m² 100 % Panel MG. Me fabricaron a medida mi proyecto y estoy muy contento de haber elegido Panel MG para mi proyecto.” - Sr. Cesar Acuña`,
+  },
+  {
+    text: "“El panel MG me sorprendió la cálidad y me ha dado mucho mejor resultado, esta muy bien armado, se siente al tacto Como ala  vista la cálidad del panel, no lo cambio por ningún otro, como no lo cónosi antes.“ -Sr. Iver Guzmán",
   },
 ];
 

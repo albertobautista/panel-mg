@@ -18,8 +18,7 @@ const slides = [
   },
   {
     id: 3,
-    title:
-      "Nos destacamos por la simplicidad de nuestra tecnología, que permite su montaje sin la necesidad de equipos sofisticados ni habilidades específicas.",
+    title: "Nuestra Tecnología en Paneles se Destaca por su Simplicidad.",
     image: "/images/home/slider/image-3.webp",
   },
 ];

@@ -51,10 +51,30 @@ export default function Footer() {
           <h3 className="font-semibold mb-6 text-2xl font-inter">
             Oficina Central
           </h3>
-
-          <p className="text-lg text-gray-300 leading-relaxed font-montserrat">
-            Urbano Gómez 1300, La Joya, 44300 <br /> Guadalajara, Jal., Mexico.
-          </p>
+          <div className=" flex flex-col gap-4">
+            <div>
+              <p className="text-lg text-gray-300 leading-relaxed font-montserrat">
+                Urbano Gómez 1300, La Joya, 44300 Guadalajara, Jal., Mexico.
+              </p>
+              <p className="text-base text-gray-300 leading-relaxed font-montserrat">
+                Telefono: 3333333333
+              </p>
+              <p className="text-base text-gray-300 leading-relaxed font-montserrat">
+                Email: gdl@gmail.com
+              </p>
+            </div>
+            <div>
+              <p className="text-lg text-gray-300 leading-relaxed font-montserrat">
+                Zona Norte <br /> Tijuana Baja California México
+              </p>
+              <p className="text-base text-gray-300 leading-relaxed font-montserrat">
+                Telefono: 6641132890 y 6648204081
+              </p>
+              <p className="text-base text-gray-300 leading-relaxed font-montserrat">
+                Email: cesaracuna2013@gmail.com
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* -------------------------------- */}

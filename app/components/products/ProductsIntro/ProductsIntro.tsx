@@ -66,21 +66,21 @@ export default function ProductsIntro() {
         {/* COLUMNA DERECHA — TEXTO */}
         <div className="flex flex-col justify-center">
           <p className="text-lg text-gray-700 leading-relaxed mb-4 font-montserrat">
-            El Sistema MG es un sistema constructivo híbrido que combina el
-            tradicional método de construcción con paneles de yeso y estructuras
-            metálicas. Este enfoque permite una integración efectiva de paneles,
-            varillas y mortero, ofreciendo una estructura monolítica de muros y
-            losas. Su diseño proporciona una carga de soporte superior y elimina
-            la necesidad de refuerzos adicionales, garantizando una construcción
-            más eficiente.
+            El Sistema MG consiste básicamente en la integración del Panel MG,
+            mallas de unión, varilla de acero y mortero cemento-arena y/o
+            concreto, generando un cuerpo monolítico de muros y losas armados,
+            con gran capacidad estructural que permite la edificación de
+            viviendas hasta dos niveles sin utilizar refuerzos adicionales como
+            castillos de varilla de acero.
           </p>
 
           <p className="text-lg text-gray-700 leading-relaxed font-montserrat">
-            Además, al comparar con las construcciones de bloques, el Panel MG
-            resalta por su capacidad de generar una estructura más fuerte y
-            durable. El sistema evita la típica “hueca” del panel de yeso,
-            proporcionando mayor integridad estructural mediante el uso de
-            mortero, estuco y otros acabados que aseguran calidad y resistencia.
+            En el Sistema MG los elementos (muros y losas) trabajan como un todo
+            al estar armados y conectados entre sí por todo lo largo y ancho de
+            la construcción. Como resultado, tenemos que los esfuerzos generados
+            en la estructura se reparten de manera uniforme porque no existen
+            diferenciales en cuanto a capacidades y características
+            estructurales.
           </p>
         </div>
       </div>
