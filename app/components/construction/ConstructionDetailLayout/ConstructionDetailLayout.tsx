@@ -7,16 +7,18 @@ interface BulletGroup {
 }
 
 interface DetailLayoutProps {
-  title: string;
-  subtitle: string;
+  title?: string;
+  subtitle?: string;
   bullets: BulletGroup[];
-  downloadUrl: string;
+  description?: string;
+  downloadUrl?: string;
 }
 
 export default function ConstructionDetailLayout({
   title,
   subtitle,
   bullets,
+  description,
   downloadUrl,
 }: DetailLayoutProps) {
   return (
@@ -24,13 +26,17 @@ export default function ConstructionDetailLayout({
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
         {/* COLUMNA IZQUIERDA */}
         <div>
-          <h1 className="text-4xl md:text-5xl font-bold font-inter text-[#0d1b2a] mb-6">
-            {title}
-          </h1>
+          {title && (
+            <h1 className="text-4xl md:text-5xl font-bold font-inter text-[#0d1b2a] mb-6">
+              {title}
+            </h1>
+          )}
 
-          <p className="text-lg md:text-xl font-montserrat text-[#0d1b2a]/80 leading-relaxed">
-            {subtitle}
-          </p>
+          {subtitle && (
+            <p className="text-lg md:text-xl font-montserrat text-[#0d1b2a]/80 leading-relaxed">
+              {subtitle}
+            </p>
+          )}
         </div>
 
         {/* COLUMNA DERECHA */}
@@ -48,7 +54,10 @@ export default function ConstructionDetailLayout({
                     <li key={idx} className="flex gap-3">
                       <span className="mt-1 text-sm">○</span>
                       <p className="text-xl">
-                        <strong>{item.label}:</strong> {item.text}
+                        <strong>
+                          {item.label !== "" ? `${item.label}:` : ""}
+                        </strong>{" "}
+                        {item.text}
                       </p>
                     </li>
                   ))}
@@ -58,11 +67,12 @@ export default function ConstructionDetailLayout({
           </div>
 
           {/* BOTÓN */}
-          <div className="mt-10">
-            <a
-              href={downloadUrl}
-              download
-              className="
+          {downloadUrl && (
+            <div className="mt-10">
+              <a
+                href={downloadUrl}
+                download
+                className="
                 inline-flex 
                 items-center 
                 justify-center 
@@ -79,12 +89,18 @@ export default function ConstructionDetailLayout({
                 font-montserrat
                 w-full
               "
-            >
-              Descargar ficha técnica
-            </a>
-          </div>
+              >
+                Descargar ficha técnica
+              </a>
+            </div>
+          )}
         </div>
       </div>
+      {description && (
+        <p className="text-[#0d1b2a] text-2xl font-montserrat leading-relaxed">
+          {description}
+        </p>
+      )}
     </section>
   );
 }

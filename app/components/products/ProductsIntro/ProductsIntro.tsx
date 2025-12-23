@@ -29,33 +29,33 @@ export default function ProductsIntro() {
               <table className="w-full text-left border-collapse">
                 <thead>
                   <tr className="bg-gray-100 text-gray-700 text-sm font-montserrat">
-                    <th className="p-3 border">Producto</th>
-                    <th className="p-3 border">Espesor sin enjarre</th>
-                    <th className="p-3 border">Espesor con enjarre</th>
-                    <th className="p-3 border">Peso terminado (Mt²)</th>
+                    <th className="p-3 border">Esfuerzo</th>
+                    <th className="p-3 border">Tipo</th>
+                    <th className="p-3 border">Cuadro Malla</th>
+                    <th className="p-3 border">Aplicaciones</th>
                   </tr>
                 </thead>
 
                 <tbody className="text-gray-800 font-montserrat">
                   <tr>
-                    <td className="p-3 border font-medium">Panel MG 2&quot;</td>
-                    <td className="p-3 border">2&quot;</td>
-                    <td className="p-3 border">3&quot;</td>
-                    <td className="p-3 border">—</td>
+                    <td className="p-3 border font-medium">Estructural</td>
+                    <td className="p-3 border">Panel</td>
+                    <td className="p-3 border">¼” y ½”</td>
+                    <td className="p-3 border">Edificios, Navegación</td>
                   </tr>
 
                   <tr>
-                    <td className="p-3 border font-medium">Panel MG 3&quot;</td>
-                    <td className="p-3 border">3&quot;</td>
-                    <td className="p-3 border">4.1&quot;</td>
-                    <td className="p-3 border">—</td>
+                    <td className="p-3 border font-medium">Semi-estructural</td>
+                    <td className="p-3 border">Panel</td>
+                    <td className="p-3 border">⅛”</td>
+                    <td className="p-3 border">Viviendas, Detalles, Cúpulas</td>
                   </tr>
 
                   <tr>
-                    <td className="p-3 border font-medium">Panel MG 4&quot;</td>
-                    <td className="p-3 border">4&quot;</td>
-                    <td className="p-3 border">5.2&quot;</td>
-                    <td className="p-3 border">—</td>
+                    <td className="p-3 border font-medium">No estructural</td>
+                    <td className="p-3 border">Panel</td>
+                    <td className="p-3 border">⅛”</td>
+                    <td className="p-3 border">Cornisas, Detalles</td>
                   </tr>
                 </tbody>
               </table>

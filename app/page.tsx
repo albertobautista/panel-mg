@@ -18,35 +18,35 @@ const pillars = [
     title: "Rapidez",
     description:
       "Disminuye el tiempo de ejecución hasta un 50% y permite pre-ensamblaje en obra. Falicita la colocación de instalaciones eléctricas, sanitarias e hidráulicas.",
-    image: "/images/home/advantages/image-1.webp",
+    image: "/images/home/advantages/image-2.webp",
     icon: "⏱️",
   },
   {
     title: "Versatilidad",
     description:
       "Compatible con materiales constructivos tradicionales, útil para muros, losas de entrepiso y detalles arquitectónicos. Facilita la autoconstrucción sin necesidad de herramientas especializadas. Flexibilidad en modulación y en posibilidades de pre-armado.",
-    image: "/images/home/advantages/image-1.webp",
+    image: "/images/home/advantages/image-3.webp",
     icon: "🧱",
   },
   {
     title: "Aislamiento",
     description:
       "Eficaz en la reducción del ruido, calor, y humedad, proporcionando un ambiente interior confortable.",
-    image: "/images/home/advantages/image-1.webp",
+    image: "/images/home/advantages/image-4.webp",
     icon: "❄️",
   },
   {
     title: "Economía",
     description:
       "Ofrece un costo directo por m² más bajo que los sistemas tradicionales, ahorrando en cimentación y estructura. Reduce la mano de obra, por la rapidez de obra reduce el costo financiero y emplea un mínimo de accesorios de instalación.",
-    image: "/images/home/advantages/image-1.webp",
+    image: "/images/home/advantages/image-5.webp",
     icon: "💰",
   },
   {
     title: "Resistencia Sísmica",
     description:
       "Minimiza la necesidad de castillos y cadenas gracias a su construcción monolítica.",
-    image: "/images/home/advantages/image-1.webp",
+    image: "/images/home/advantages/image-6.webp",
     icon: "🌎",
   },
 ];

@@ -7,6 +7,7 @@ interface Pillar {
   title: string;
   image: string;
   slug: string;
+  titleComplete?: string;
 }
 
 interface ImageGridProps {
@@ -51,7 +52,9 @@ export default function ImageGrid({ data, title }: ImageGridProps) {
 
               {/* CONTENIDO */}
               <div className="relative z-10 flex flex-col items-center w-full justify-center font-montserrat text-center">
-                <h3 className="text-2xl font-semibold mb-2">{item.title}</h3>
+                <h3 className="text-2xl font-semibold mb-2">
+                  {item.titleComplete || item.title}
+                </h3>
               </div>
             </motion.div>
           </Link>

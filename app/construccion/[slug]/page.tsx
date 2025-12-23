@@ -28,7 +28,12 @@ export default async function ConstructionDetailPage({ params }: Props) {
         bullets={item.bullets}
         downloadUrl="/files/fichas/metales-ferroaleaciones.pdf"
       />
-      <ProductGallery />
+      <ProductGallery images={item.images ?? []} />
+      <ConstructionDetailLayout
+        title={item.title2}
+        bullets={item.bulletsBellow || []}
+        description={item.description}
+      />
       <InfoBanner />
       <RelatedSolutions
         items={[

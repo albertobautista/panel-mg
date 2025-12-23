@@ -3,11 +3,23 @@ import { PanelTypes } from "../components/about-us/PanelTypes";
 import { ProductGallery } from "../components/products/ProductGallery";
 import { ProductsIntro } from "../components/products/ProductsIntro";
 
+const productImages = [
+  "/images/products/slider/image-1.webp",
+  "/images/products/slider/image-2.webp",
+  "/images/products/slider/image-3.webp",
+  "/images/products/slider/image-4.webp",
+  "/images/products/slider/image-5.webp",
+  "/images/products/slider/image-6.webp",
+  "/images/products/slider/image-7.webp",
+  "/images/products/slider/image-8.webp",
+  "/images/products/slider/image-9.webp",
+];
+
 export default function Productos() {
   return (
     <div className="bg-white">
       <ProductsIntro />
-      <ProductGallery />
+      <ProductGallery images={productImages} />
       <section className="w-full px-6 md:px-20 py-12">
         <h2 className="text-4xl md:text-5xl font-bold text-[#0d1b2a] mb-10 font-inter">
           ¿Por qué utilizar el panel MG?

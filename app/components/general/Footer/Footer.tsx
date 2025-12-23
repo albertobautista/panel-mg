@@ -41,6 +41,13 @@ export default function Footer() {
             >
               YouTube
             </Link>
+            <span className="text-gray-400 text-lg">/</span>
+            <Link
+              href="#"
+              className="underline hover:text-gray-200 text-lg font-montserrat"
+            >
+              Instagram
+            </Link>
           </div>
         </div>
 
@@ -57,7 +64,7 @@ export default function Footer() {
                 Urbano Gómez 1300, La Joya, 44300 Guadalajara, Jal., Mexico.
               </p>
               <p className="text-base text-gray-300 leading-relaxed font-montserrat">
-                Telefono: 3333333333
+                Telefono: +52 33 3674 5257
               </p>
               <p className="text-base text-gray-300 leading-relaxed font-montserrat">
                 Email: gdl@gmail.com

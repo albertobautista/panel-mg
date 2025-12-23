@@ -4,19 +4,15 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const images = [
-  "/images/products/slider/image-1.webp",
-  "/images/products/slider/image-2.webp",
-  "/images/products/slider/image-3.webp",
-  "/images/products/slider/image-1.webp",
-  "/images/products/slider/image-2.webp",
-  "/images/products/slider/image-3.webp",
-];
+interface ProductGalleryProps {
+  images: string[];
+}
 
 // Triplicamos el arreglo para crear loop infinito real sin parpadeos
-const loop = [...images, ...images, ...images];
 
-export default function ProductGallery() {
+export default function ProductGallery({ images }: ProductGalleryProps) {
+  const loop = [...images, ...images, ...images];
+
   const CARD_WIDTH = 800;
   const GAP = 28;
   const TOTAL = CARD_WIDTH + GAP;
