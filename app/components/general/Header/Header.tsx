@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navItems = [
   { label: "Nosotros", href: "/nosotros" },
@@ -18,13 +19,16 @@ export default function Header() {
     <header className="w-full bg-dark-gray text-white border-b border-neutral-800">
       <div className="mx-auto max-w-7xl px-6 flex items-center justify-between h-30">
         {/* LOGO */}
-        <div className="flex items-center gap-2">
-          <Link href="/">
-            <span className="text-4xl font-bold tracking-wide ">
-              PANEL <span className="text-red">MG</span>
-            </span>
-          </Link>
-        </div>
+        <Link href="/">
+          <Image
+            src="/logo.png"
+            alt="Panel MG"
+            width={250}
+            height={50}
+            priority
+            className="cursor-pointer"
+          />
+        </Link>
 
         {/* MENU DESKTOP */}
         <nav className="hidden md:flex items-center gap-8">

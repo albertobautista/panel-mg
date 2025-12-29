@@ -10,18 +10,13 @@ export default function Footer() {
         {/* -------------------------------- */}
         <div className="flex flex-col gap-5">
           {/* LOGO */}
-          <div className="flex items-center gap-2">
-            <span className="text-4xl font-bold tracking-wide ">
-              PANEL <span className="text-red">MG</span>
-            </span>
-          </div>
-          {/* <Image
-            src="/images/logo-panelmg-white.png"
+          <Image
+            src="/logo.png"
             alt="Panel MG"
-            width={220}
+            width={250}
             height={80}
             className="mb-8"
-          /> */}
+          />
 
           <p className="text-lg text-gray-300 font-medium font-inter">
             Síguenos en:
