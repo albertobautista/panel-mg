@@ -22,18 +22,7 @@ export default async function ConstructionDetailPage({ params }: Props) {
 
   return (
     <section className="w-full px-6 md:px-20 py-16 bg-white">
-      <ConstructionDetailLayout
-        title={item.title}
-        subtitle={item.subtitle}
-        bullets={item.bullets}
-        downloadUrl="/files/fichas/metales-ferroaleaciones.pdf"
-      />
-      <ProductGallery images={item.images ?? []} />
-      <ConstructionDetailLayout
-        title={item.title2}
-        bullets={item.bulletsBellow || []}
-        description={item.description}
-      />
+      {item.content}
       <InfoBanner />
       <RelatedSolutions
         items={[
