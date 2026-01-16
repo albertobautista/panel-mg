@@ -824,8 +824,8 @@ export const pillars = [
     ),
   },
   {
-    title: "Cúpulas",
-    image: "/images/home/advantages/image-1.webp",
+    title: "Cúpulas y Bóvedas",
+    image: "/images/construction/products/cupulas/image-1.webp",
     slug: "cupulas-y-bovedas",
     content: (
       <>
@@ -921,7 +921,16 @@ export const pillars = [
             </div>
           </div>
         </section>
-        <ProductGallery images={["/images/home/advantages/image-1.webp"]} />
+        <ProductGallery
+          images={[
+            "/images/construction/products/cupulas/image-1.webp",
+            "/images/construction/products/cupulas/image-2.webp",
+            "/images/construction/products/cupulas/image-3.webp",
+            "/images/construction/products/cupulas/image-4.webp",
+            "/images/construction/products/cupulas/image-5.webp",
+            "/images/construction/products/cupulas/image-6.webp",
+          ]}
+        />
         <section className="w-full px-6 md:px-20 py-16">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             {/* COLUMNA IZQUIERDA */}
@@ -929,26 +938,52 @@ export const pillars = [
               <h1 className="text-4xl md:text-5xl font-bold font-inter text-[#0d1b2a] mb-6">
                 Bóvedas
               </h1>
-              <p className="text-lg md:text-xl font-montserrat text-[#0d1b2a]/80 leading-relaxed">
-                Las bóvedas...
-              </p>
+              <div>
+                <div className="space-y-8 text-[#0d1b2a] font-montserrat leading-relaxed">
+                  {[
+                    {
+                      title: "Tipologías",
+                      items: [
+                        {
+                          label: "Bóvedas de Caño",
+                          text: "Ideal para espacios industriales y almacenes, estas bóvedas son extremadamente eficientes para cubrir grandes áreas.",
+                        },
+                        {
+                          label: "Bóvedas Semiesféricas",
+                          text: "Se utilizan en construcciones monumentales, aportando elegancia y grandiosidad.",
+                        },
+                      ],
+                    },
+                  ].map((group, index) => (
+                    <div key={index}>
+                      {/* Nivel 1 */}
+                      <p className="font-semibold mb-3 text-2xl">
+                        • {group.title}
+                      </p>
+
+                      {/* Nivel 2 */}
+                      <ul className="ml-6 space-y-3">
+                        {group.items.map((item, idx) => (
+                          <li key={idx} className="flex gap-3">
+                            <span className="mt-1 text-sm">○</span>
+                            <p className="text-xl">
+                              <strong>
+                                {item.label !== "" ? `${item.label}:` : ""}
+                              </strong>{" "}
+                              {item.text}
+                            </p>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
             <div>
-              <div className="space-y-8 text-[#0d1b2a] font-montserrat leading-relaxed">
+              <h1 className="text-4xl md:text-5xl font-bold font-inter text-[#0d1b2a] mb-6"></h1>
+              <div className="space-y-8 pt-11 text-[#0d1b2a] font-montserrat leading-relaxed">
                 {[
-                  {
-                    title: "Tipologías",
-                    items: [
-                      {
-                        label: "Bóvedas de Caño",
-                        text: "Ideal para espacios industriales y almacenes, estas bóvedas son extremadamente eficientes para cubrir grandes áreas.",
-                      },
-                      {
-                        label: "Bóvedas Semiesféricas",
-                        text: "Se utilizan en construcciones monumentales, aportando elegancia y grandiosidad.",
-                      },
-                    ],
-                  },
                   {
                     title: "Ventajas",
                     items: [
