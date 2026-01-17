@@ -11,7 +11,7 @@ export default function InfoBanner() {
           </p>
 
           <h2 className="text-white text-3xl md:text-4xl font-semibold leading-tight font-montserrat">
-            Solicite más información
+            Solicite Más Información
           </h2>
         </div>
 

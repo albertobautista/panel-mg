@@ -1,3 +1,7 @@
+"use client";
+
+import { downloadMultiplePDFs, downloadPDF } from "@/app/lib/download-utils";
+
 export default function TechnicalPresentation() {
   return (
     <section className="w-full bg-blue text-white py-24 px-6 md:px-20">
@@ -31,6 +35,44 @@ export default function TechnicalPresentation() {
           construcción tradicional al poder dar el terminado deseado en el
           mortero.
         </p>
+      </div>
+      <div className="max-w-lg">
+        {/* BOTÓN */}
+        <div className="mt-10">
+          <button
+            onClick={() => {
+              downloadMultiplePDFs([
+                {
+                  filename: "Ficha-técnica-detallada.pdf",
+                  path: "/pdfs/nosotros-1.pdf",
+                },
+                {
+                  filename: "Ficha-técnica.pdf",
+                  path: "/pdfs/nosotros-2.pdf",
+                },
+              ]);
+            }}
+            className="
+                                    inline-flex 
+                                    cursor-pointer
+                                    items-center 
+                                    justify-center 
+                                    px-8 
+                                    py-4 
+                                    border 
+                                    border-[rgb(13,27,42)]
+                                    font-semibold
+                                    rounded-lg
+                                    bg-[#0d1b2a]
+                                    text-white
+                                    transition-colors
+                                    font-montserrat
+                                    w-full
+                                  "
+          >
+            Descargar ficha técnica
+          </button>
+        </div>
       </div>
     </section>
   );

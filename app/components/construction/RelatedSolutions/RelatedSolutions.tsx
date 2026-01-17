@@ -21,7 +21,7 @@ export default function RelatedSolutions({ items }: RelatedSolutionsProps) {
           Nuestras soluciones
         </span>
         <h2 className="text-4xl md:text-5xl font-bold font-inter text-[#0d1b2a]">
-          Soluciones relacionadas
+          Soluciones Relacionadas
         </h2>
       </div>
 

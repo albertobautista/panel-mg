@@ -1,3 +1,7 @@
+"use client";
+
+import { downloadPDF } from "@/app/lib/download-utils";
+
 export default function ProductsIntro() {
   return (
     <section className="w-full py-20 px-6 md:px-20 bg-white">
@@ -82,6 +86,33 @@ export default function ProductsIntro() {
             diferenciales en cuanto a capacidades y características
             estructurales.
           </p>
+          {/* BOTÓN */}
+          <div className="mt-10">
+            <button
+              onClick={() =>
+                downloadPDF("Presentación-técnica.pdf", "/pdfs/productos.pdf")
+              }
+              className="
+                            inline-flex 
+                            items-center 
+                            justify-center 
+                            px-8 
+                            py-4 
+                            border 
+                            border-[#0d1b2a]
+                            text-[#0d1b2a]
+                            font-semibold
+                            rounded-lg
+                            hover:bg-[#0d1b2a]
+                            hover:text-white
+                            transition-colors
+                            font-montserrat
+                            w-full
+                          "
+            >
+              Descargar ficha técnica
+            </button>
+          </div>
         </div>
       </div>
     </section>
