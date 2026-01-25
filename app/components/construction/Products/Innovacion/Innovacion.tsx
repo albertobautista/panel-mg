@@ -118,6 +118,39 @@ const Innovacion = () => {
                       label: "Materiales Inteligentes",
                       text: "Incorporamos materiales que responden a cambios ambientales, como aquellos que regulan la temperatura interior o que absorben la humedad. Esto mejora el confort y reduce la necesidad de climatización.",
                     },
+                  ],
+                },
+              ].map((group, index) => (
+                <div key={index}>
+                  {/* Nivel 1 */}
+                  <p className="font-semibold mb-3 text-2xl">• {group.title}</p>
+
+                  {/* Nivel 2 */}
+                  <ul className="ml-6 flex w-fullspace-y-3">
+                    {group.items.map((item, idx) => (
+                      <li key={idx} className="flex gap-3">
+                        <span className="mt-1 text-sm">○</span>
+                        <p className="text-xl">
+                          <strong>
+                            {item.label !== "" ? `${item.label}:` : ""}
+                          </strong>{" "}
+                          {item.text}
+                        </p>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+          {/* COLUMNA DERECHA */}
+          <div className="flex flex-col justify-between h-full">
+            {/* BULLETS */}
+            <div className="space-y-8 text-[#0d1b2a] font-montserrat leading-relaxed">
+              {[
+                {
+                  title: "",
+                  items: [
                     {
                       label: "Sistemas Ecológicos",
                       text: "Uso de sistemas de captación de agua de lluvia y paneles solares. Estas soluciones no solo reducen el consumo de recursos, sino que también promueven la autosuficiencia energética de las edificaciones.",
@@ -127,10 +160,10 @@ const Innovacion = () => {
               ].map((group, index) => (
                 <div key={index}>
                   {/* Nivel 1 */}
-                  <p className="font-semibold mb-3 text-2xl">• {group.title}</p>
+                  {/* <p className="font-semibold mb-3 text-2xl">• {group.title}</p> */}
 
                   {/* Nivel 2 */}
-                  <ul className="ml-6 flex w-full bg-red-200 space-y-3">
+                  <ul className="ml-6 mt-10 space-y-3">
                     {group.items.map((item, idx) => (
                       <li key={idx} className="flex gap-3">
                         <span className="mt-1 text-sm">○</span>

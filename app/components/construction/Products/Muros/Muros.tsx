@@ -67,7 +67,7 @@ const Muros = () => {
             <div className="mt-10">
               <button
                 onClick={() =>
-                  downloadPDF("Anclaje-de-Muros.pdf", "/pdfs/muros.pdf")
+                  downloadPDF("Anclaje-de-Muros.pdf", "/pdfs/losas.pdf")
                 }
                 className="
                 inline-flex 
