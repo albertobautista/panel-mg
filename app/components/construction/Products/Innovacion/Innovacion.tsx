@@ -55,47 +55,6 @@ const Innovacion = () => {
                 </div>
               ))}
             </div>
-
-            {/* BOTÓN */}
-            <div className="mt-10">
-              <button
-                onClick={() =>
-                  downloadMultiplePDFs([
-                    {
-                      path: "/pdfs/innovacion-1.pdf",
-                      filename: "Detalles-arquitectonicos.pdf",
-                    },
-                    {
-                      path: "/pdfs/innovacion-2.pdf",
-                      filename: "Detalles-constructivos.pdf",
-                    },
-                    {
-                      path: "/pdfs/innovacion-3.pdf",
-                      filename: "Detalles-losas-y-numeros.pdf",
-                    },
-                  ])
-                }
-                className="
-                inline-flex 
-                items-center 
-                justify-center 
-                px-8 
-                py-4 
-                border 
-                border-[#0d1b2a]
-                text-[#0d1b2a]
-                font-semibold
-                rounded-lg
-                hover:bg-[#0d1b2a]
-                hover:text-white
-                transition-colors
-                font-montserrat
-                w-full
-              "
-              >
-                Descargar ficha técnica
-              </button>
-            </div>
           </div>
         </div>
       </section>

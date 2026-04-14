@@ -65,35 +65,6 @@ export default function ConstructionDetailLayout({
               </div>
             ))}
           </div>
-
-          {/* BOTÓN */}
-          {downloadUrl && (
-            <div className="mt-10">
-              <a
-                href={downloadUrl}
-                download
-                className="
-                inline-flex 
-                items-center 
-                justify-center 
-                px-8 
-                py-4 
-                border 
-                border-[#0d1b2a]
-                text-[#0d1b2a]
-                font-semibold
-                rounded-lg
-                hover:bg-[#0d1b2a]
-                hover:text-white
-                transition-colors
-                font-montserrat
-                w-full
-              "
-              >
-                Descargar ficha técnica
-              </a>
-            </div>
-          )}
         </div>
       </div>
       {description && (

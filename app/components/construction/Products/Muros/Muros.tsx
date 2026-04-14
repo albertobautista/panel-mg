@@ -62,34 +62,6 @@ const Muros = () => {
                 </div>
               ))}
             </div>
-
-            {/* BOTÓN */}
-            <div className="mt-10">
-              <button
-                onClick={() =>
-                  downloadPDF("Anclaje-de-Muros.pdf", "/pdfs/losas.pdf")
-                }
-                className="
-                inline-flex 
-                items-center 
-                justify-center 
-                px-8 
-                py-4 
-                border 
-                border-[#0d1b2a]
-                text-[#0d1b2a]
-                font-semibold
-                rounded-lg
-                hover:bg-[#0d1b2a]
-                hover:text-white
-                transition-colors
-                font-montserrat
-                w-full
-              "
-              >
-                Descargar ficha técnica
-              </button>
-            </div>
           </div>
         </div>
       </section>

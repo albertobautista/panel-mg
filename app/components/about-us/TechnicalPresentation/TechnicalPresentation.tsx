@@ -43,12 +43,8 @@ export default function TechnicalPresentation() {
             onClick={() => {
               downloadMultiplePDFs([
                 {
-                  filename: "Ficha-técnica-detallada.pdf",
-                  path: "/pdfs/nosotros-1.pdf",
-                },
-                {
-                  filename: "Ficha-técnica.pdf",
-                  path: "/pdfs/nosotros-2.pdf",
+                  filename: "Panel-MG.pdf",
+                  path: "/pdfs/productos-2.pdf",
                 },
               ]);
             }}
@@ -70,7 +66,7 @@ export default function TechnicalPresentation() {
                                     w-full
                                   "
           >
-            Descargar ficha técnica
+            DESCRIPCIÓN GENERAL PANEL MG
           </button>
         </div>
       </div>

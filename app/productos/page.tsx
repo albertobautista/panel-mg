@@ -19,7 +19,8 @@ export default function Productos() {
   return (
     <div className="bg-white">
       <ProductsIntro />
-      <ProductGallery images={productImages} />
+      <PanelTypes />
+
       <section className="w-full px-6 md:px-20 py-12">
         <h2 className="text-4xl md:text-5xl font-bold text-[#0d1b2a] mb-10 font-inter">
           ¿Por qué utilizar el panel MG?
@@ -56,7 +57,7 @@ export default function Productos() {
           </p>
         </div>
       </section>
-      <PanelTypes />
+      <ProductGallery images={productImages} />
       <InfoBanner />
     </div>
   );

@@ -22,49 +22,6 @@ export default function ProductsIntro() {
             con longitudes de 2.44 m a 5.05 m. Una vez aplicado el enjarre, el
             espesor y peso del panel quedan como se muestra en la tabla:
           </p>
-
-          {/* TABLA DE ESPECIFICACIONES */}
-          <div className="bg-gray-50 rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-lg font-semibold text-gray-800 mb-4 font-inter">
-              Especificaciones del Panel MG
-            </h3>
-
-            <div className="overflow-x-auto">
-              <table className="w-full text-left border-collapse">
-                <thead>
-                  <tr className="bg-gray-100 text-gray-700 text-sm font-montserrat">
-                    <th className="p-3 border">Esfuerzo</th>
-                    <th className="p-3 border">Tipo</th>
-                    <th className="p-3 border">Cuadro Malla</th>
-                    <th className="p-3 border">Aplicaciones</th>
-                  </tr>
-                </thead>
-
-                <tbody className="text-gray-800 font-montserrat">
-                  <tr>
-                    <td className="p-3 border font-medium">Estructural</td>
-                    <td className="p-3 border">Panel</td>
-                    <td className="p-3 border">¼” y ½”</td>
-                    <td className="p-3 border">Edificios, Navegación</td>
-                  </tr>
-
-                  <tr>
-                    <td className="p-3 border font-medium">Semi-estructural</td>
-                    <td className="p-3 border">Panel</td>
-                    <td className="p-3 border">⅛”</td>
-                    <td className="p-3 border">Viviendas, Detalles, Cúpulas</td>
-                  </tr>
-
-                  <tr>
-                    <td className="p-3 border font-medium">No estructural</td>
-                    <td className="p-3 border">Panel</td>
-                    <td className="p-3 border">⅛”</td>
-                    <td className="p-3 border">Cornisas, Detalles</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
         </div>
 
         {/* COLUMNA DERECHA — TEXTO */}
@@ -86,33 +43,6 @@ export default function ProductsIntro() {
             diferenciales en cuanto a capacidades y características
             estructurales.
           </p>
-          {/* BOTÓN */}
-          <div className="mt-10">
-            <button
-              onClick={() =>
-                downloadPDF("Presentación-técnica.pdf", "/pdfs/productos.pdf")
-              }
-              className="
-                            inline-flex 
-                            items-center 
-                            justify-center 
-                            px-8 
-                            py-4 
-                            border 
-                            border-[#0d1b2a]
-                            text-[#0d1b2a]
-                            font-semibold
-                            rounded-lg
-                            hover:bg-[#0d1b2a]
-                            hover:text-white
-                            transition-colors
-                            font-montserrat
-                            w-full
-                          "
-            >
-              Descargar ficha técnica
-            </button>
-          </div>
         </div>
       </div>
     </section>
