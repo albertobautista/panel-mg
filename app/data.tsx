@@ -211,45 +211,6 @@ export const pillars = [
     ),
   },
   {
-    title: "Detalles Arquitectonicos",
-    subtitle:
-      "La cimentación de losa corrida es un método ampliamente utilizado en la construcción moderna que proporciona una base robusta y homogénea para la edificación. Su diseño se adapta a terrenos variados, logrando una excelente distribución de cargas.",
-    image: "/images/home/advantages/image-1.webp",
-    slug: "detalles-arquitectonicos",
-    bullets: [
-      {
-        title: "Materiales",
-        items: [
-          {
-            label: "Concreto",
-            text: "Utilizamos concreto de alta resistencia con una capacidad de f’c = 200 Kg/cm², asegurando que la base responda adecuadamente ante cualquier carga vertical o lateral.",
-          },
-          {
-            label: "Espesor",
-            text: "Se recomienda un espesor que varía entre 8 cm (3”) y 10 cm (4”) dependiendo del tipo de carga y el suelo donde se aplique.",
-          },
-        ],
-      },
-      {
-        title: "Refuerzo",
-        subtitle:
-          "La cimentación de losa corrida es un método ampliamente utilizado en la construcción moderna que proporciona una base robusta y homogénea para la edificación. Su diseño se adapta a terrenos variados, logrando una excelente distribución de cargas.",
-        items: [
-          {
-            label: "Malla Electrosoldada",
-            text: "Incorporamos malla de refuerzo 6x6/10-10 que mejora la resistencia a la tracción y limita el desarrollo de fisuras, contribuyendo a la longevidad de la losa.",
-          },
-          {
-            label: "Trabes y Castillos",
-            text: " Se utilizan trabes y castillos prefabricados tipo “ARMEX”, que se colocan bajo los ejes de los muros, proporcionando soporte adicional y aumentando la capacidad de carga del sistema.",
-          },
-        ],
-      },
-    ],
-    description:
-      "Las cúpulas y bóvedas representan soluciones arquitectónicas innovadoras que combinan estética y funcionalidad. Utilizando tecnología de paneles, es posible crear estructuras curvas resistentes que ofrecen espacios únicos y eficientes.",
-  },
-  {
     title: "Innovación en Materiales Constructivos",
     subtitle: "Investigación y Desarrollo",
     image: "/images/construction/products/innovacion/image-1.webp",
@@ -261,5 +222,11 @@ export const pillars = [
     image: "/images/construction/products/sostenibilidad/image-1.webp",
     slug: "compromiso-con-la-sostenibilidad",
     content: <Sostenibilidad />,
+  },
+  {
+    title: "Descargar Ficha Técnica",
+    image:
+      "/images/construction/products/technical-specifications/image-1.webp",
+    pdfUrl: "/pdfs/productos-2.pdf",
   },
 ];

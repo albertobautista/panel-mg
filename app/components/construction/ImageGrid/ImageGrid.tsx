@@ -6,8 +6,9 @@ import Link from "next/link";
 interface Pillar {
   title: string;
   image: string;
-  slug: string;
+  slug?: string;
   titleComplete?: string;
+  pdfUrl?: string;
 }
 
 interface ImageGridProps {
@@ -30,12 +31,8 @@ export default function ImageGrid({ data, title }: ImageGridProps) {
 
       {/* GRID */}
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        {data.map((item) => (
-          <Link
-            key={item.slug}
-            href={`/construccion/${item.slug}`}
-            className="group"
-          >
+        {data.map((item) => {
+          const cardContent = (
             <motion.div
               className="relative rounded-xl overflow-hidden bg-black text-white h-[300px] md:h-[340px] flex p-6 cursor-pointer"
               whileHover={{ scale: 1.03 }}
@@ -55,10 +52,38 @@ export default function ImageGrid({ data, title }: ImageGridProps) {
                 <h3 className="text-2xl font-semibold mb-2">
                   {item.titleComplete || item.title}
                 </h3>
+                {item.pdfUrl && (
+                  <span className="mt-2 inline-flex items-center gap-1 text-sm bg-red-600 text-white px-3 py-1 rounded-full">
+                    Descargar PDF
+                  </span>
+                )}
               </div>
             </motion.div>
-          </Link>
-        ))}
+          );
+
+          if (item.pdfUrl) {
+            return (
+              <a
+                key={item.pdfUrl}
+                href={item.pdfUrl}
+                download
+                className="group"
+              >
+                {cardContent}
+              </a>
+            );
+          }
+
+          return (
+            <Link
+              key={item.slug}
+              href={`/construccion/${item.slug}`}
+              className="group"
+            >
+              {cardContent}
+            </Link>
+          );
+        })}
       </div>
     </section>
   );

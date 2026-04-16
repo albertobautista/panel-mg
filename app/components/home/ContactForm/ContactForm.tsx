@@ -47,11 +47,11 @@ export default function ContactForm() {
         {/* HEADER */}
         <div className="text-center mb-12">
           <p className="uppercase tracking-widest text-gray-500 font-inter text-md">
-            Contáctenos
+            Contáctanos
           </p>
 
           <h2 className="text-4xl font-inter font-bold text-[#0d1b2a] mt-2">
-            Estamos aquí para ayudarle
+            Estamos aquí para ayudarte
           </h2>
         </div>
 

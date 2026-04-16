@@ -84,7 +84,7 @@ export default function Footer() {
         {/* -------------------------------- */}
         <div>
           <h3 className="font-semibold mb-6 text-2xl font-inter">
-            Contáctenos
+            Contáctanos
           </h3>
 
           <div className="mb-8">

@@ -7,10 +7,10 @@ export default function Contact() {
       {/* <section className="w-full px-6 md:px-20 py-24 bg-[#06202d] text-white">
         <div className="max-w-6xl mx-auto">
           <p className="uppercase tracking-wide text-white/70 mb-2">
-            Contáctenos
+            Contáctanos
           </p>
           <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
-            Estamos aquí para ayudarle
+            Estamos aquí para ayudarte
           </h1>
         </div>
       </section> */}
