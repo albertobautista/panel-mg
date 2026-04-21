@@ -65,17 +65,6 @@ export default function Footer() {
                 Email: gdl@gmail.com
               </p>
             </div>
-            <div>
-              <p className="text-lg text-gray-300 leading-relaxed font-montserrat">
-                Zona Norte <br /> Tijuana Baja California México
-              </p>
-              <p className="text-base text-gray-300 leading-relaxed font-montserrat">
-                Telefono: 6641132890 y 6648204081
-              </p>
-              <p className="text-base text-gray-300 leading-relaxed font-montserrat">
-                Email: cesaracuna2013@gmail.com
-              </p>
-            </div>
           </div>
         </div>
 
