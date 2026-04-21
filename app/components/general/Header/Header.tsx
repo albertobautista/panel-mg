@@ -10,6 +10,7 @@ const navItems = [
   { label: "Nosotros", href: "/nosotros" },
   { label: "Productos", href: "/productos" },
   { label: "Sistema Constructivo", href: "/construccion" },
+  { label: "Ventajas del Panel MG", href: "/ventajas" },
 ];
 
 export default function Header() {
