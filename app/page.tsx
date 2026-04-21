@@ -2,6 +2,7 @@ import { ContactForm } from "./components/home/ContactForm";
 import { FeatureHeroSection } from "./components/home/FeatureHeroSection";
 import { HeroSlider } from "./components/home/HeroSlider";
 import { ImageGrid } from "./components/home/ImageGrid";
+import { YoutubePreview } from "./components/home/YoutubePreview";
 import { InfoSection } from "./components/home/InfoSection";
 import { ReviewsSection } from "./components/home/ReviewsSection";
 import { StatsSection } from "./components/home/StatsSection";
@@ -56,6 +57,7 @@ export default function Home() {
     <div>
       <HeroSlider />
       <InfoSection />
+      <YoutubePreview url="https://www.youtube.com/watch?si=aoZ2rvnhu6wMqhY8&v=ZASdQ3l5IrU&feature=youtu.be" />
       <ImageGrid data={pillars} title="Ventajas del Sistema MG:" />
       <StatsSection />
       <ReviewsSection />
