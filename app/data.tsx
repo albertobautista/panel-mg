@@ -227,6 +227,6 @@ export const pillars = [
     title: "Descargar Ficha Técnica",
     image:
       "/images/construction/products/technical-specifications/image-1.webp",
-    pdfUrl: "/pdfs/productos-2.pdf",
+    pdfUrl: "/images/ficha-tecnica/ficha-tecnica.png",
   },
 ];
