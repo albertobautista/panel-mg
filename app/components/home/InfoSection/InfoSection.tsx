@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function InfoSection() {
   return (
     <section className="w-full bg-creama text-[#0d1b2a] py-20 px-6 md:px-20">
@@ -43,6 +45,13 @@ export default function InfoSection() {
             hasta dos niveles sin utilizar refuerzos adicionales como castillos
             de varilla de acero.
           </p>
+
+          <Link
+            href="/ventajas"
+            className="mt-8 inline-flex items-center justify-center px-8 py-4 bg-blue hover:bg-[#122b40] text-white font-semibold rounded-lg transition-colors font-montserrat"
+          >
+            Ver ventajas del Panel MG
+          </Link>
         </div>
       </div>
     </section>

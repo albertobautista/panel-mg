@@ -1,6 +1,7 @@
 "use client";
 
 import { downloadPDF } from "@/app/lib/download-utils";
+import Link from "next/link";
 
 export default function ProductsIntro() {
   return (
@@ -19,9 +20,15 @@ export default function ProductsIntro() {
           {/* PRIMER PÁRRAFO */}
           <p className="text-lg text-gray-700 leading-relaxed mb-8 font-montserrat">
             Se fabrica el Panel MG en espesores de 2&quot;, 3&quot; o 4&quot;
-            con longitudes de 2.44 m a 5.05 m. Una vez aplicado el enjarre, el
-            espesor y peso del panel quedan como se muestra en la tabla:
+            con longitudes de 2.44 m a 5.05 m.
           </p>
+
+          <Link
+            href="/ventajas"
+            className="inline-flex w-full items-center justify-center px-8 py-4 bg-red hover:bg-red/90 text-white font-semibold rounded-lg transition-colors font-montserrat"
+          >
+            Ver ventajas del Panel MG
+          </Link>
         </div>
 
         {/* COLUMNA DERECHA — TEXTO */}
