@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="relative w-full h-[260px] md:h-[320px] lg:h-[360px] flex items-center">
       {/* IMAGEN DE FONDO */}
       <Image
-        src="/images/construction/hero.webp"
+        src="/images/construction/hero-2.webp"
         alt="Construcción"
         fill
         priority
@@ -13,7 +13,7 @@ export default function Hero() {
       />
 
       {/* OVERLAY */}
-      <div className="absolute inset-0 bg-black/55" />
+      <div className="absolute inset-0 bg-black/65" />
 
       {/* CONTENIDO */}
       <div className="relative z-10 w-full px-6">

@@ -1,6 +1,6 @@
 "use client";
 
-import { downloadMultiplePDFs, downloadPDF } from "@/app/lib/download-utils";
+import { downloadMultiplePDFs } from "@/app/lib/download-utils";
 
 export default function TechnicalPresentation() {
   return (

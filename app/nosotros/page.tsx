@@ -20,6 +20,7 @@ export default function AboutUs() {
           "/images/us/image-8.webp",
           "/images/us/image-9.webp",
           "/images/us/image-10.webp",
+          "/images/us/image-11.webp",
         ]}
       />
 

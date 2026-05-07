@@ -62,7 +62,13 @@ export default function Footer() {
                 Telefono: +52 3312986648
               </p>
               <p className="text-base text-gray-300 leading-relaxed font-montserrat">
-                Email: gdl@gmail.com
+                Email:{" "}
+                <Link
+                  href="mailto:direccion@panelmg.com.mx"
+                  className="underline hover:text-gray-200"
+                >
+                  direccion@panelmg.com.mx
+                </Link>
               </p>
             </div>
           </div>
@@ -81,10 +87,10 @@ export default function Footer() {
               Para productos
             </p>
             <Link
-              href="mailto:contacto@panelmg.com"
+              href="mailto:ventas@panelmg.com"
               className="text-lg underline hover:text-gray-200 block mt-1 font-montserrat"
             >
-              contacto@panelmg.com
+              ventas@panelmg.com
             </Link>
           </div>
 
@@ -93,10 +99,10 @@ export default function Footer() {
               Para representación
             </p>
             <Link
-              href="mailto:comercial@panelmg.com"
+              href="mailto:informacion@panelmg.com"
               className="text-lg underline hover:text-gray-200 block mt-1 font-montserrat"
             >
-              comercial@panelmg.com
+              informacion@panelmg.com
             </Link>
           </div>
         </div>

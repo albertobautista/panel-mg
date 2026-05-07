@@ -26,7 +26,7 @@ export default function BannerCTA() {
             href="/contacto"
             className="inline-block font-montserrat bg-blue text-white font-medium px-6 py-3 rounded-lg hover:bg-[#0c3244] transition flex items-center gap-2"
           >
-            Contáctanos →
+            Habla con un asesor →
           </a>
         </div>
       </div>

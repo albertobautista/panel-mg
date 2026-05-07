@@ -13,22 +13,22 @@ type StatItemProps = {
 
 const stats = [
   {
-    value: 10,
-    label: "países",
-    description: "Prestando apoyo técnico",
-    icon: "🌎",
+    value: 40,
+    label: "aliados",
+    description: "Y distribuidores en toda la república mexicana",
+    icon: "📍",
   },
   {
-    value: 35,
+    value: 25000,
+    label: "m²",
+    description: "En ventas mensuales en todo tipo de paneles",
+    icon: "📈",
+  },
+  {
+    value: 37,
     label: "años",
-    description: "Impulsando la innovación",
-    icon: "✔️",
-  },
-  {
-    value: 15,
-    label: "tipos",
-    description: "De construcciones",
-    icon: "🏢",
+    description: "Brindando el mejor servicio y atención al cliente",
+    icon: "🏆",
   },
 ];
 

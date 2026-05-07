@@ -13,6 +13,8 @@ const productImages = [
   "/images/products/slider/image-7.webp",
   "/images/products/slider/image-8.webp",
   "/images/products/slider/image-9.webp",
+  "/images/products/slider/image-10.webp",
+  "/images/products/slider/image-11.webp",
 ];
 
 export default function Productos() {

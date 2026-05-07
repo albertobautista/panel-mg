@@ -7,7 +7,7 @@ export default function Advantages() {
       <section className="flex justify-center overflow-hidden bg-white px-6 pt-6 md:px-20 md:pt-10">
         <div className="relative h-[70vh] w-full sm:h-[115vh] md:h-[135vh] lg:h-[170vh] xl:h-[190vh]">
           <Image
-            src="/images/why-is-better/image-2.webp"
+            src="/images/why-is-better/image-1.webp"
             alt="Ventajas del sistema MG"
             fill
             priority

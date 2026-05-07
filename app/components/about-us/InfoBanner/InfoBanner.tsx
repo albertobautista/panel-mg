@@ -20,7 +20,7 @@ export default function InfoBanner() {
           href="/contacto"
           className="bg-blue font-montserrat text-white px-6 py-3 rounded-md text-base hover:bg-[#021728] transition flex items-center gap-2"
         >
-          Contáctanos →
+          Habla con un asesor →
         </Link>
       </div>
     </section>

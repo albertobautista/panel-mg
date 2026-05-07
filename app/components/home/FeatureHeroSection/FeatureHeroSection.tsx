@@ -41,7 +41,7 @@ export default function FeatureHeroSection() {
               href="/contacto"
               className="bg-red text-white px-8 py-4 rounded-md text-lg font-medium inline-flex items-center gap-2 transition-colors"
             >
-              Solicite Más Información
+              Habla con un asesor
               <ArrowRight size={20} />
             </Link>
           </div>
