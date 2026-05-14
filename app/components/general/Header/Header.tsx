@@ -9,6 +9,7 @@ import Image from "next/image";
 const navItems = [
   { label: "Nosotros", href: "/nosotros" },
   { label: "Productos", href: "/productos" },
+  { label: "Distribuidores", href: "/distribuidores" },
   { label: "Sistema Constructivo", href: "/construccion" },
   { label: "Ventajas del Panel MG", href: "/ventajas" },
 ];
@@ -32,17 +33,17 @@ export default function Header() {
         </Link>
 
         {/* MENU DESKTOP */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-5 xl:gap-8">
           {navItems.map((item) => (
             <motion.a
               key={item.label}
               href={item.href}
-              className="relative text-md font-inter uppercase hover:text-red transition"
-              whileHover={{ scale: 1.05 }}
+              className="relative text-sm xl:text-md font-inter uppercase whitespace-nowrap hover:text-red transition"
+              whileHover={{ scale: 1.02 }}
             >
               {item.label}
               <motion.span
-                className="absolute left-0 bottom-[-4px] h-[2px] w-full bg-red origin-left"
+                className="absolute left-0 -bottom-1 h-0.5 w-full bg-red origin-left"
                 initial={{ scaleX: 0 }}
                 whileHover={{ scaleX: 1 }}
                 transition={{ duration: 0.25 }}
@@ -60,7 +61,7 @@ export default function Header() {
         </nav>
 
         {/* BOTÓN MOBILE */}
-        <button className="md:hidden text-white" onClick={() => setOpen(!open)}>
+        <button className="lg:hidden text-white" onClick={() => setOpen(!open)}>
           {open ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
@@ -71,7 +72,7 @@ export default function Header() {
           initial={{ height: 0, opacity: 0 }}
           animate={{ height: "auto", opacity: 1 }}
           exit={{ height: 0, opacity: 0 }}
-          className="md:hidden bg-neutral-900 px-6 py-4 space-y-4"
+          className="lg:hidden bg-neutral-900 px-6 py-4 space-y-4"
         >
           {navItems.map((item) => (
             <a
