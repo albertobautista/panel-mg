@@ -73,6 +73,11 @@ const Viviendas = () => {
           "/images/construction/products/viviendas/image-1.webp",
           "/images/construction/products/viviendas/image-2.webp",
           "/images/construction/products/viviendas/image-3.webp",
+          "/images/construction/products/viviendas/image-4.webp",
+          "/images/construction/products/viviendas/image-5.webp",
+          "/images/construction/products/viviendas/image-6.webp",
+          "/images/construction/products/viviendas/image-7.webp",
+          "/images/construction/products/viviendas/image-8.webp",
         ]}
       />
       <section className="w-full px-6 md:px-20 py-16">

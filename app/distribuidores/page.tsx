@@ -204,7 +204,7 @@ export default function DistribuidoresPage() {
     <main className="min-h-screen bg-creama font-sans text-blue">
       <section className="relative flex min-h-[500px] w-full items-center py-12 md:min-h-[620px] md:py-16 lg:min-h-[700px]">
         <Image
-          src="/images/construction/hero-2.webp"
+          src="/images/distribuidores/hero.webp"
           alt="Distribuidores"
           fill
           priority
