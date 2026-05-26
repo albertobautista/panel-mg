@@ -2,7 +2,6 @@ import Edificios from "./components/construction/Products/Edificios/Edificios";
 import Innovacion from "./components/construction/Products/Innovacion/Innovacion";
 import Losa from "./components/construction/Products/Losa/Losa";
 import Muros from "./components/construction/Products/Muros/Muros";
-import Sostenibilidad from "./components/construction/Products/Sostenibilidad/Sostenibilidad";
 import Viviendas from "./components/construction/Products/Viviendas/Viviendas";
 import { ProductGallery } from "./components/products/ProductGallery";
 
@@ -211,17 +210,11 @@ export const pillars = [
     ),
   },
   {
-    title: "Innovación en Materiales Constructivos",
+    title: "Detalles arquitectónicos",
     subtitle: "Investigación y Desarrollo",
     image: "/images/construction/products/innovacion/image-1.webp",
-    slug: "innovacion-en-materiales-constructivos",
+    slug: "detalles-arquitectonicos",
     content: <Innovacion />,
-  },
-  {
-    title: "Compromiso con la Sostenibilidad",
-    image: "/images/construction/products/sostenibilidad/image-1.webp",
-    slug: "compromiso-con-la-sostenibilidad",
-    content: <Sostenibilidad />,
   },
   {
     title: "Descargar Ficha Técnica",
