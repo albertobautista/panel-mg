@@ -9,7 +9,7 @@ export default function FeatureHeroSection() {
     <section className="relative w-full h-[420px] md:h-[520px] lg:h-[580px] overflow-hidden">
       {/* Imagen de fondo */}
       <Image
-        src="/images/home/feature/image-1.webp"
+        src="/images/home/feature/image-2.webp"
         alt="Consumibles críticos"
         fill
         className="object-cover object-center"
