@@ -77,7 +77,7 @@ export default function ImageGrid({ data, title }: ImageGridProps) {
           return (
             <Link
               key={item.slug}
-              href={`/construccion/${item.slug}`}
+              href={`/fotogaleria/${item.slug}`}
               className="group"
             >
               {cardContent}

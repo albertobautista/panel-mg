@@ -9,7 +9,7 @@ interface Props {
   }>;
 }
 
-export default async function ConstructionDetailPage({ params }: Props) {
+export default async function PhotogalleryDetailPage({ params }: Props) {
   const { slug } = await params;
   console.log(slug);
   const item = pillars.find((el) => el.slug === slug);

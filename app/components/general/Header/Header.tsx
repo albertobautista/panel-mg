@@ -10,7 +10,7 @@ const navItems = [
   { label: "Nosotros", href: "/nosotros" },
   { label: "Productos", href: "/productos" },
   { label: "Distribuidores", href: "/distribuidores" },
-  { label: "Sistema Constructivo", href: "/construccion" },
+  { label: "Fotogalería", href: "/fotogaleria" },
   { label: "Ventajas del Panel MG", href: "/ventajas" },
 ];
 
