@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "yet-another-react-lightbox/styles.css";
 import "@fontsource-variable/montserrat";
 import "@fontsource/lato";
 import "@fontsource-variable/inter";
