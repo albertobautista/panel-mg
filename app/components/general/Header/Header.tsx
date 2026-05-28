@@ -11,6 +11,7 @@ const navItems = [
   { label: "Productos", href: "/productos" },
   { label: "Distribuidores", href: "/distribuidores" },
   { label: "Fotogalería", href: "/fotogaleria" },
+  { label: "Proceso Constructivo", href: "/proceso-constructivo" },
   { label: "Ventajas del Panel MG", href: "/ventajas" },
 ];
 
@@ -19,9 +20,9 @@ export default function Header() {
 
   return (
     <header className="w-full bg-dark-gray text-white border-b border-neutral-800">
-      <div className="mx-auto max-w-7xl px-6 flex items-center justify-between h-30">
+      <div className="mx-auto max-w-[1440px] px-6 xl:px-8 flex items-center h-30 gap-6 xl:gap-10">
         {/* LOGO */}
-        <Link href="/">
+        <Link href="/" className="shrink-0">
           <Image
             src="/logo.png"
             alt="Panel MG"
@@ -33,7 +34,7 @@ export default function Header() {
         </Link>
 
         {/* MENU DESKTOP */}
-        <nav className="hidden lg:flex items-center gap-5 xl:gap-8">
+        <nav className="hidden lg:flex flex-1 justify-end items-center gap-4 xl:gap-6 2xl:gap-8">
           {navItems.map((item) => (
             <motion.a
               key={item.label}
