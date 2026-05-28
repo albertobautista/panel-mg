@@ -12,30 +12,70 @@ export const pillars = [
       "La cimentación de losa corrida es un método ampliamente utilizado en la construcción moderna que proporciona una base robusta y homogénea para la edificación. Su diseño se adapta a terrenos variados, logrando una excelente distribución de cargas.",
     image: "/images/construction/products/losa/image-1.webp",
     slug: "cimentacion-de-losa-corrida",
+    galleryImages: [
+      "/images/construction/products/losa/image-1.webp",
+      "/images/construction/products/losa/image-2.webp",
+      "/images/construction/products/losa/image-3.webp",
+      "/images/construction/products/losa/image-4.webp",
+      "/images/construction/products/losa/image-5.webp",
+    ],
     content: <Losa />,
   },
   {
     title: "Anclaje de Muros",
     image: "/images/construction/products/muro/image-1.webp",
     slug: "anclaje-de-muros",
+    galleryImages: [
+      "/images/construction/products/muro/image-1.webp",
+      "/images/construction/products/muro/image-2.webp",
+      "/images/construction/products/muro/image-3.webp",
+      "/images/construction/products/muro/image-4.webp",
+      "/images/construction/products/muro/image-5.webp",
+    ],
     content: <Muros />,
   },
   {
     title: "Construccion de Viviendas",
     image: "/images/construction/products/viviendas/image-1.webp",
     slug: "construccion-de-viviendas",
+    galleryImages: [
+      "/images/construction/products/viviendas/image-1.webp",
+      "/images/construction/products/viviendas/image-2.webp",
+      "/images/construction/products/viviendas/image-3.webp",
+      "/images/construction/products/viviendas/image-4.webp",
+      "/images/construction/products/viviendas/image-5.webp",
+      "/images/construction/products/viviendas/image-6.webp",
+      "/images/construction/products/viviendas/image-7.webp",
+      "/images/construction/products/viviendas/image-8.webp",
+    ],
     content: <Viviendas />,
   },
   {
     title: "Fachadas, Muros Divisorios y Volúmenes en Edificios",
     image: "/images/construction/products/edificios/image-1.webp",
     slug: "fachadas-muros-divisorios-y-volumenes-en-edificios",
+    galleryImages: [
+      "/images/construction/products/edificios/image-1.webp",
+      "/images/construction/products/edificios/image-2.webp",
+      "/images/construction/products/edificios/image-3.webp",
+      "/images/construction/products/edificios/image-4.webp",
+      "/images/construction/products/edificios/image-5.webp",
+      "/images/construction/products/edificios/image-6.webp",
+    ],
     content: <Edificios />,
   },
   {
     title: "Cúpulas y Bóvedas",
     image: "/images/construction/products/cupulas/image-1.webp",
     slug: "cupulas-y-bovedas",
+    galleryImages: [
+      "/images/construction/products/cupulas/image-1.webp",
+      "/images/construction/products/cupulas/image-2.webp",
+      "/images/construction/products/cupulas/image-3.webp",
+      "/images/construction/products/cupulas/image-4.webp",
+      "/images/construction/products/cupulas/image-5.webp",
+      "/images/construction/products/cupulas/image-6.webp",
+    ],
     content: (
       <>
         <section className="w-full px-6 md:px-20 py-16">
@@ -214,6 +254,11 @@ export const pillars = [
     subtitle: "Investigación y Desarrollo",
     image: "/images/construction/products/innovacion/image-1.webp",
     slug: "detalles-arquitectonicos",
+    galleryImages: [
+      "/images/construction/products/innovacion/image-1.webp",
+      "/images/construction/products/innovacion/image-2.webp",
+      "/images/construction/products/innovacion/image-3.webp",
+    ],
     content: <Innovacion />,
   },
 ];
