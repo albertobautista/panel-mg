@@ -5,11 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-dark-gray text-white pt-24 pb-14 px-6 md:px-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16">
-        {/* -------------------------------- */}
-        {/* COLUMNA 1 — LOGO + REDES */}
-        {/* -------------------------------- */}
         <div className="flex flex-col gap-5">
-          {/* LOGO */}
           <Image
             src="/logo.png"
             alt="Panel MG"
@@ -46,14 +42,11 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* -------------------------------- */}
-        {/* COLUMNA 2 — DIRECCIÓN */}
-        {/* -------------------------------- */}
         <div>
           <h3 className="font-semibold mb-6 text-2xl font-inter">
             Oficina Central
           </h3>
-          <div className=" flex flex-col gap-4">
+          <div className="flex flex-col gap-4">
             <div>
               <p className="text-lg text-gray-300 leading-relaxed font-montserrat">
                 Urbano Gómez 1300, La Joya, 44300 Guadalajara, Jal., Mexico.
@@ -74,9 +67,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* -------------------------------- */}
-        {/* COLUMNA 3 — CONTACTO */}
-        {/* -------------------------------- */}
         <div>
           <h3 className="font-semibold mb-6 text-2xl font-inter">
             Contáctanos
@@ -108,10 +98,8 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* SEPARADOR */}
       <div className="border-t border-gray-600 w-full mt-20 mb-8"></div>
 
-      {/* COPYRIGHT */}
       <div className="max-w-7xl mx-auto font-montserrat flex flex-col md:flex-row justify-between text-lg text-gray-300">
         <p>
           © {new Date().getFullYear()} PANEL MG — Sistema Constructivo. Todos

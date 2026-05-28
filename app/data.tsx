@@ -216,10 +216,4 @@ export const pillars = [
     slug: "detalles-arquitectonicos",
     content: <Innovacion />,
   },
-  {
-    title: "Descargar Ficha Técnica",
-    image:
-      "/images/construction/products/technical-specifications/image-2.webp",
-    pdfUrl: "/pdfs/ficha-tecnica.pdf",
-  },
 ];
