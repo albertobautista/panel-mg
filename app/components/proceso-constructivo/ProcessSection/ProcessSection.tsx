@@ -23,10 +23,10 @@ function PhotoCard({ photo }: { photo: Photo }) {
 function SectionHeader({ eyebrow, title }: Pick<Section, "eyebrow" | "title">) {
   return (
     <>
-      <span className="mb-2.5 block font-montserrat text-xs font-semibold uppercase tracking-[2px] text-gray">
+      <span className="mb-2.5 block font-montserrat text-lg leading-relaxed text-[#0d1b2a]">
         {eyebrow}
       </span>
-      <h2 className="mb-4 font-inter text-[clamp(1.55rem,2.4vw,2rem)] font-bold uppercase leading-[1.05] tracking-[-.2px] text-blue">
+      <h2 className="mb-4 font-inter text-4xl md:text-5xl font-bold text-blue">
         {title}
       </h2>
       <div className="mb-10 h-[3px] w-9 rounded-sm bg-red-600" />
@@ -36,14 +36,14 @@ function SectionHeader({ eyebrow, title }: Pick<Section, "eyebrow" | "title">) {
 
 function TextBlock({
   paragraphs,
-  className = "text-slate-700",
+  className = "text-[#0d1b2a]",
 }: {
   paragraphs: string[];
   className?: string;
 }) {
   return (
     <div
-      className={`space-y-4 font-montserrat text-sm sm:text-base leading-[1.84] ${className}`}
+      className={`space-y-4 font-montserrat text-lg leading-relaxed ${className}`}
     >
       {paragraphs.map((paragraph) => (
         <p key={paragraph}>{paragraph}</p>
@@ -61,14 +61,14 @@ export default function ProcessSection({ section }: { section: Section }) {
   const bannerAfterSubsectionTitle = section.bannerAfterSubsectionTitle;
 
   const banner = section.banner && (
-    <div className="mt-12 rounded-2xl bg-blue px-6 py-12 md:px-10">
-      <h2 className="mb-4 font-inter text-[clamp(1.5rem,2.4vw,2rem)] font-bold uppercase tracking-[-.2px] text-white">
+    <div className="mt-12 rounded-2xl bg-[#eeebe3] px-6 py-12 md:px-10">
+      <h2 className="mb-4 font-inter text-4xl md:text-5xl font-bold text-[#0d1b2a]">
         {section.banner.title}
       </h2>
-      <div className="max-w-[760px] text-white/80">
+      <div className="max-w-[760px] text-[#0d1b2a]">
         <TextBlock
           paragraphs={section.banner.paragraphs}
-          className="text-white/80"
+          className="text-[#0d1b2a]"
         />
       </div>
     </div>
@@ -97,7 +97,7 @@ export default function ProcessSection({ section }: { section: Section }) {
       {section.subsections.map((subsection) => (
         <div key={subsection.title}>
           <div className="mt-8 sm:mt-11 border-t border-slate-200 pt-7 sm:pt-9">
-            <h3 className="mb-[18px] border-l-[3px] border-red pl-3 font-montserrat text-md font-bold uppercase tracking-[.8px] text-blue">
+            <h3 className="mb-[18px] border-l-[3px] border-red pl-3 font-montserrat text-lg font-bold text-blue">
               {subsection.title}
             </h3>
             {subsection.photos && subsection.photos.length > 0 ? (

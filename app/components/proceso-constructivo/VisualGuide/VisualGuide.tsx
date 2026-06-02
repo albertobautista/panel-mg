@@ -4,10 +4,10 @@ export default function VisualGuide() {
   return (
     <section className="w-full bg-[#eeebe3] px-4 sm:px-6 md:px-20 py-16 sm:py-20">
       <div className="mx-auto max-w-7xl">
-        <span className="mb-2.5 block font-montserrat text-xs font-semibold uppercase tracking-[2px] text-gray">
+        <span className="mb-2.5 block font-montserrat text-lg leading-relaxed text-[#0d1b2a]">
           Referencia visual
         </span>
-        <h2 className="mb-4 font-inter text-[clamp(1.55rem,2.4vw,2rem)] font-bold uppercase leading-[1.05] tracking-[-.2px] text-blue">
+        <h2 className="mb-4 font-inter text-4xl md:text-5xl font-bold text-[#0d1b2a]">
           Guía Visual del Proceso Constructivo
         </h2>
         <div className="mb-10 h-[3px] w-9 rounded-sm bg-red" />

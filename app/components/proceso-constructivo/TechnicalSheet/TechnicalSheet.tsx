@@ -2,12 +2,12 @@ import Link from "next/link";
 
 export default function TechnicalSheet() {
   return (
-    <section className="w-full px-4 sm:px-6 md:px-20 py-14 sm:py-16 md:py-20 bg-dark-gray text-center">
+    <section className="w-full px-4 sm:px-6 md:px-20 py-14 sm:py-16 md:py-20 bg-[#eeebe3] text-center">
       <div className="max-w-7xl mx-auto">
-        <h2 className="mb-3 font-inter text-[clamp(1.5rem,2.5vw,2.2rem)] font-bold uppercase tracking-[-.2px] text-white">
+        <h2 className="mb-3 font-inter text-4xl md:text-5xl font-bold text-[#0d1b2a]">
           Descargar Ficha Técnica
         </h2>
-        <p className="mx-auto mb-9 max-w-[560px] font-montserrat text-base leading-[1.78] text-white/70">
+        <p className="mx-auto mb-9 max-w-[560px] font-montserrat text-lg leading-relaxed text-[#0d1b2a]">
           Especificaciones técnicas, tablas de resistencia, datos de aislamiento
           térmico y acústico del Panel MG.
         </p>
