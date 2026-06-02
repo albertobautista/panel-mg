@@ -7,7 +7,7 @@ export default function Hero() {
       className="relative flex w-full min-h-[260px] items-center overflow-hidden md:min-h-80 lg:min-h-90"
     >
       <Image
-        src="/images/construction/hero.webp"
+        src="/images/construction/hero3.webp"
         alt="Proceso constructivo Panel MG"
         fill
         priority
@@ -22,7 +22,7 @@ export default function Hero() {
             Proceso Constructivo
           </h1>
           <div className="h-1 w-[52px] rounded-sm bg-red-600" />
-          <p className="mt-4 max-w-4xl font-montserrat text-xs  tracking-[0.2px] text-white/85 sm:text-sm md:mt-5 md:text-base md:tracking-[0.3px]">
+          <p className="mt-4 max-w-4xl font-montserrat text-xs  tracking-[0.2px] text-white/85 sm:text-sm md:mt-5 md:text-lg md:tracking-[0.3px]">
             Guía simplificada de la instalación del Panel MG en casas y
             edificios
           </p>
