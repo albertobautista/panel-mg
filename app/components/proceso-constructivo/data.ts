@@ -79,6 +79,7 @@ export const sections: Section[] = [
         paragraphs: [
           "Los paneles de los muros se ensamblan entre sí por ambas caras con mallas unión de alambre de acero pulido calibre 14. En las uniones rectas se usan mallas de 2.44 x 10 cm. En los esquineros interiores, mallas de 2.44 x 20 cm, mientras que en los exteriores de 2.44 x 30 cm.",
           "El no usar dichas mallas en las uniones de paneles provoca la aparición posterior de fisuras o grietas una vez aplicado el mortero. Para las uniones en esquina las mallas se doblan en la obra a 90° o en el ángulo necesario.",
+          "NOTA: Se pueden fabricar paneles con longitudes variables en caso de que alguien quiera mayor altura en su casa.",
         ],
         photos: [
           {
@@ -236,7 +237,7 @@ export const sections: Section[] = [
       {
         title: "Concreto en Losas",
         paragraphs: [
-          'Las losas de panel nos sirven como "cimbra muerta", pues colamos directamente sobre ella la capa de compresión de 5 cm de espesor (f´c = 200 Kg/cm²) que proporcionará la capacidad de la misma como elemento estructural horizontal. Se utiliza grava de ½" para garantizar que esta penetre en la malla de alambre y el poliestireno.',
+          'Las losas de panel nos sirven como "cimbra muerta", pues colamos directamente sobre ella la capa de compresión de 10 cm de espesor (f´c = 200 Kg/cm²) que proporcionará la capacidad de la misma como elemento estructural horizontal. Se utiliza grava de ½" para garantizar que esta penetre en la malla de alambre y el poliestireno.',
           "No se deberá quitar la cimbra durante los siguientes 10 días (tiempo de fraguado del concreto).",
         ],
       },
