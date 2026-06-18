@@ -23,7 +23,7 @@ export function AdvantagesHero() {
         <div className="grid grid-cols-2 grid-rows-[200px_120px] gap-3 md:grid-rows-[230px_140px]">
           <div className="relative row-span-2 overflow-hidden rounded-lg border border-white/20">
             <Image
-              src="/images/why-is-better/image-1.webp"
+              src="/images/why-is-better/image-2.webp"
               alt="Panel MG instalado"
               fill
               priority
@@ -32,7 +32,7 @@ export function AdvantagesHero() {
           </div>
           <div className="relative overflow-hidden rounded-lg border border-white/20">
             <Image
-              src="/images/products/slider/image-2.webp"
+              src="/images/why-is-better/image-3.webp"
               alt="Montaje de panel MG"
               fill
               className="object-cover"
@@ -40,7 +40,7 @@ export function AdvantagesHero() {
           </div>
           <div className="relative overflow-hidden rounded-lg border border-white/20">
             <Image
-              src="/images/products/slider/image-5.webp"
+              src="/images/why-is-better/image-4.webp"
               alt="Detalle de panel estructural"
               fill
               className="object-cover"

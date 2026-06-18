@@ -99,10 +99,10 @@ export const specs: SpecItem[] = [
 ];
 
 export const gallery: GalleryItem[] = [
-  { src: "/images/why-is-better/image-1.webp", label: "Aplicacion en obra" },
+  { src: "/images/why-is-better/image-5.webp", label: "Aplicacion en obra" },
   { src: "/images/products/slider/image-3.webp", label: "Montaje de panel" },
-  { src: "/images/products/slider/image-6.webp", label: "Detalle estructural" },
-  { src: "/images/products/slider/image-9.webp", label: "Proyecto terminado" },
+  { src: "/images/why-is-better/image-6.webp", label: "Detalle estructural" },
+  { src: "/images/why-is-better/image-7.webp", label: "Proyecto terminado" },
   {
     src: "/images/products/slider/image-11.webp",
     label: "Sistema constructivo",
