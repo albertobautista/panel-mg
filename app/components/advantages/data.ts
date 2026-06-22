@@ -32,9 +32,9 @@ export type AdvantageItem = {
 
 export const stats: StatItem[] = [
   { value: "3,650", label: "Puntos de soldadura por panel" },
-  { value: "120,000 lbs", label: "Resistencia a tension" },
-  { value: "10 kg/m3", label: "Densidad EPS" },
-  { value: "1 cm", label: "Separacion malla-espuma" },
+  { value: "120,000 lbs", label: "Resistencia a tensión" },
+  { value: "10 kg/m³", label: "Densidad EPS" },
+  { value: "1 cm", label: "Separación malla-espuma" },
 ];
 
 export const features: FeatureItem[] = [
@@ -90,12 +90,12 @@ export const features: FeatureItem[] = [
 ];
 
 export const specs: SpecItem[] = [
-  { value: "2.44 x 1.22", label: "Medida estandar (mt.)" },
+  { value: "2.44 x 1.22", label: "Medida estándar (mt.)" },
   { value: "3,650", label: "Puntos de soldadura" },
-  { value: "10 kg/m3", label: "Densidad EPS" },
-  { value: "120,000 lbs", label: "Resistencia a tension" },
-  { value: "1 cm", label: "Separacion malla-espuma" },
-  { value: "2.03 mm", label: "Diametro del alambre" },
+  { value: "10 kg/m³", label: "Densidad EPS" },
+  { value: "120,000 lbs", label: "Resistencia a tensión" },
+  { value: "1 cm", label: "Separación malla-espuma" },
+  { value: "2.03 mm", label: "Diámetro del alambre" },
 ];
 
 export const gallery: GalleryItem[] = [

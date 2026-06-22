@@ -5,10 +5,10 @@ export function AdvantagesFeatures() {
     <section className="bg-creama px-6 py-14 md:px-20 md:py-20">
       <div className="mx-auto max-w-7xl">
         <p className="mb-3 inline-block border-b-2 border-red pb-1 font-lato text-[10px] font-bold uppercase tracking-[3px] text-red">
-          Caracteristicas del producto
+          Características del producto
         </p>
         <h2 className="mb-10 font-inter text-3xl font-black uppercase text-blue md:text-5xl">
-          Tecnologia que marca <span className="text-red">la diferencia</span>
+          Tecnología que marca <span className="text-red">la diferencia</span>
         </h2>
 
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">

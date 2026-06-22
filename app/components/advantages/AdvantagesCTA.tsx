@@ -15,11 +15,11 @@ export function AdvantagesCTA() {
         <h2 className="mb-4 font-inter text-3xl font-black uppercase leading-tight text-white md:text-5xl">
           Panel MG estructural
           <span className="block text-red">
-            innovacion que construye confianza
+            innovación que construye confianza
           </span>
         </h2>
         <p className="mb-8 font-lato text-sm leading-7 text-white/70 md:text-base">
-          Cotiza tu proyecto con asesoria tecnica y soluciones adaptadas a tu
+          Cotiza tu proyecto con asesoría técnica y soluciones adaptadas a tu
           tipo de obra.
         </p>
         <Link
