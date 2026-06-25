@@ -77,10 +77,10 @@ export default function Footer() {
               Para productos
             </p>
             <Link
-              href="mailto:ventas@panelmg.com"
+              href="mailto:ventas@panelmg.com.mx"
               className="text-lg underline hover:text-gray-200 block mt-1 font-montserrat"
             >
-              ventas@panelmg.com
+              ventas@panelmg.com.mx
             </Link>
           </div>
 
@@ -89,10 +89,10 @@ export default function Footer() {
               Para representación
             </p>
             <Link
-              href="mailto:informacion@panelmg.com"
+              href="mailto:informacion@panelmg.com.mx"
               className="text-lg underline hover:text-gray-200 block mt-1 font-montserrat"
             >
-              informacion@panelmg.com
+              informacion@panelmg.com.mx
             </Link>
           </div>
         </div>

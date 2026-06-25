@@ -12,7 +12,7 @@ export async function POST(req: Request) {
     if (!parsed.success) {
       return Response.json(
         { success: false, errors: parsed.error.flatten().fieldErrors },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -20,8 +20,8 @@ export async function POST(req: Request) {
 
     // Enviar email
     await resend.emails.send({
-      from: "contacto@albertobautista.dev",
-      to: "dachb101@gmail.com",
+      from: "informacion@panelmg.com.mx",
+      to: "ventas@panelmg.com.mx",
       subject: "Nuevo mensaje del formulario de contacto",
       html: `
         <h2>Nuevo mensaje de contacto</h2>
