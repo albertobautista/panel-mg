@@ -20,22 +20,25 @@ export default function Footer() {
 
           <div className="flex gap-5 mt-4">
             <Link
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61589917446807&mibextid=wwXIfr&rdid=UBKP72GFHRIx6ofH&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1JRGookPWF%2F%3Fmibextid%3DwwXIfr#"
               className="underline hover:text-gray-200 text-lg font-montserrat"
+              target="_blank"
             >
-              LinkedIn
+              Facebook
             </Link>
             <span className="text-gray-400 text-lg">/</span>
             <Link
-              href="#"
+              href="https://www.youtube.com/@PanelMGM%C3%A9xico"
               className="underline hover:text-gray-200 text-lg font-montserrat"
+              target="_blank"
             >
               YouTube
             </Link>
             <span className="text-gray-400 text-lg">/</span>
             <Link
-              href="#"
+              href="https://www.instagram.com/panelmg.mx"
               className="underline hover:text-gray-200 text-lg font-montserrat"
+              target="_blank"
             >
               Instagram
             </Link>
